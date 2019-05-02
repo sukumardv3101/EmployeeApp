@@ -73,6 +73,7 @@ class Login extends Component {
                         style={styles.logo}/>
                 </View>
                 <TextInput
+                    autoFocus
                     placeholder='username'
                     style={styles.input}
                     autoCapitalize='none'
